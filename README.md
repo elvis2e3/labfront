@@ -1,24 +1,28 @@
-# labfront
+LabFront
+==================================
 
-## Project setup
+Proceso de instalación
+----------------------
+### Instalación
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Ejecución
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+### Compilación
 ```
 yarn build
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Proceso de instalación con Docker
+----------------------
++ Construir el contenedor
+  > docker run -d -p 8080:80 elvis2e3/labfront:latest
++ Ejecutar el proyecto
+  > docker run -d -p 8080:80 elvis2e3/labfront:latest 
++ Probar en un navegador
+  > http://127.0.0.1:8080
